@@ -163,3 +163,55 @@ sensor:
     unit_of_measurement: "days"
 ```
 ## Tvorba karty pro zobrazení
+
+### Jednoduchá markdown karta
+![image](https://github.com/user-attachments/assets/05d9efa6-6197-430b-bb1c-f7cb460559f4)
+
+```
+type: markdown
+content: |2-
+
+    **{{ state_attr('sensor.christmas_countdown', 'days') }}** dnů, **{{ state_attr('sensor.christmas_countdown', 'hours') }}** hodin, **{{ state_attr('sensor.christmas_countdown', 'minutes') }}** minut
+title: Odpočet do Vánoc
+```
+
+### Jednoduchá karta entity
+![image](https://github.com/user-attachments/assets/febfa6ea-9c97-4bd4-b968-76444dc49a43)
+
+```
+type: entity
+entity: sensor.christmas_countdown
+icon: mdi:pine-tree-fire
+unit: Dnů
+name: Odpočet do vánoc
+```
+
+### Karta s obrázkem
+![image](https://github.com/user-attachments/assets/7530a1ea-f3f8-49f4-aabc-ccfceb63ae6a)
+
+
+
+```
+type: picture-elements
+elements:
+  - type: state-label
+    style:
+      left: 50%
+      top: 50%
+      color: black
+      font-size: 100px
+      background-color: white
+      border-radius: 50%
+      width: 200px
+      height: 200px
+      display: flex
+      align-items: center
+      justify-content: center
+      text-align: center
+      transform: translate(-50%, -50%)
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2)
+    entity: sensor.christmas_countdown
+    attribute: days
+image: /api/image/serve/ef1833840d9b3a7ef46e7c13773b54d1/512x512
+dark_mode_image: /api/image/serve/69223ce0ba0c43584a01f0ad73affedf/512x512
+```
