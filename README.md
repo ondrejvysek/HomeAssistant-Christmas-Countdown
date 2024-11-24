@@ -189,7 +189,7 @@ name: Odpočet do vánoc
 ### Karta s obrázkem
 ![image](https://github.com/user-attachments/assets/7530a1ea-f3f8-49f4-aabc-ccfceb63ae6a)
 
-
+Ve vlastnostech karty nahrajte obrázek dle chuti pro světlé a tmavé téma, můžete použí ![tenot](https://github.com/user-attachments/assets/7530a1ea-f3f8-49f4-aabc-ccfceb63ae6a)
 
 ```
 type: picture-elements
@@ -213,5 +213,5 @@ elements:
     entity: sensor.christmas_countdown
     attribute: days
 image: /api/image/serve/ef1833840d9b3a7ef46e7c13773b54d1/512x512
-dark_mode_image: /api/image/serve/69223ce0ba0c43584a01f0ad73affedf/512x512
+dark_mode_image: /api/image/serve/ef1833840d9b3a7ef46e7c13773b54d1/512x512
 ```
