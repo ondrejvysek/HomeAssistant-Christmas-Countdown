@@ -1,6 +1,6 @@
-# Odpočet do Vánoc pro nedočkavé :)
+# Christmas Countdown for the Impatient :)
 
-Vánoce za dveřmi, proč si nezablbnout s Home Assistantem a pro nedočkavé 
+With Christmas just around the corner, why not have some fun with Home Assistant and create a countdown for the impatient? 🎄
 
 ## Co je potřeba
 
