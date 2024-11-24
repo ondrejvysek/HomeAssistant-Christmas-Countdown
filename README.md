@@ -189,7 +189,7 @@ name: Odpočet do vánoc
 ### Karta s obrázkem
 ![image](https://github.com/user-attachments/assets/7530a1ea-f3f8-49f4-aabc-ccfceb63ae6a)
 
-Ve vlastnostech karty nahrajte obrázek dle chuti pro světlé a tmavé téma, můžete použí ![tenot](https://github.com/user-attachments/assets/7530a1ea-f3f8-49f4-aabc-ccfceb63ae6a)
+Ve vlastnostech karty nahrajte obrázek dle chuti pro světlé a tmavé téma, můžete použí [Konfigurace senzoru s configuration.yaml (nemám template.yaml)](#konfigurace-senzoru-s-configurationyaml-nem%C3%A1m-templateyaml)     
 
 ```
 type: picture-elements
